@@ -1,0 +1,51 @@
+// VerilogA for vineel_wk, va_vco_pulse_out, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+
+//
+// Voltage controlled oscillator
+// output is square wave with no jitter
+//
+
+(* instrument_module *)
+module va_vco_pulse_out (out,outB, in);
+
+input in; voltage in;                           // input terminal
+output out; voltage out;                        // output terminal
+output outB; voltage outB;                        // output terminal
+parameter real vmin=0.5;                          // input voltage that corresponds to minimum output frequency
+parameter real vmax=1.5 from (vmin:inf);     // input voltage that corresponds to maximum output frequency
+parameter real fmin=5.5G from (0:inf);             // minimum output frequency
+parameter real fmax=6.5G from (fmin:inf);     // maximum output frequency
+parameter real vl=0;                           // low output voltage
+parameter real vh=1.8;                            // high output voltage
+parameter real tt=35p from (0:inf);       // output transition time
+parameter real ttol=1u/fmax from (0:0.1/fmax);  // time tolerance
+real freq, phase;
+integer n;
+
+analog begin
+    // compute the freq from the input voltage
+    freq = (V(in) - vmin)*(fmax - fmin) / (vmax - vmin) + fmin;
+
+    // bound the frequency (this is optional)
+    if (freq > fmax) freq = fmax;
+    if (freq < fmin) freq = fmin;
+
+    // bound the time step to assure no cycles are skipped
+    $bound_step(0.6/freq);
+
+    // phase is the integral of the freq modulo 2 pi
+    phase = 2*`M_PI*idtmod(freq, 0.0, 1.0, -0.5);
+
+    // identify the point where switching occurs
+    @(cross(phase + `M_PI/2, +1, ttol) or cross(phase - `M_PI/2, +1, ttol))
+        n = (phase >= -`M_PI/2) && (phase < `M_PI/2);
+
+    // generate the output
+    V(out) <+ transition(n ? vh : vl, 0, tt);
+    V(outB) <+ transition(n ? vl : vh, 0, tt);
+end
+endmodule

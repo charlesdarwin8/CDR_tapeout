@@ -1,0 +1,17 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Wed Mar 12 19:45:42 2025 
+Best design point: 1
+Design specs: 
+	vineel_wk_215c_tb_NF_LNA_1	corner	Nominal - 
+	pnoise gain		Error	No
+	getData("/NF" ?result "noise")		Error	No
+	(20 * log10(getData("gain" ?result "noise")))		Error	No
+	S11 dB20		Error	No
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 1
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Wed Mar 12 19:45:56 2025 

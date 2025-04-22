@@ -1,0 +1,17 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Tue Apr 15 15:00:19 2025 
+Best design point: 1
+Design specs: 
+	vineel_wk_209as_tb_top_level_loop_locking_verilogA_1	corner	Nominal - 
+	VT("/S4")		Error	No
+	average(clip(IT("/C0/PLUS") 2.5e-06 5e-06))		-19.45n
+	VT("/A")		Error	No
+	VT("/B")		Error	No
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 1
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Tue Apr 15 15:13:00 2025 

@@ -1,0 +1,24 @@
+//Revision 44
+//NOTE
+// Default template for spectre
+// Note:
+//      Please remember to replace Top Cell Library, Cell, and View
+//      fields with the actual names used by your design.
+//END_NOTE
+
+config tb_hw2;
+design vineel_wk.tb_hw2:schematic;
+liblist myLib;
+
+viewlist spectre, cmos_sch, \cmos.sch , schematic, veriloga, ahdl, pspice, dspf;
+stoplist spectre;
+
+
+inst (vineel_wk.tb_hw2:schematic).I0 binding :calibre_rcc;
+inst (vineel_wk.hw2:schematic).I5 binding :schematic;
+inst (vineel_wk.hw2:schematic).I6 binding :schematic;
+inst (vineel_wk.hw2:schematic).I1 binding :schematic;
+inst (vineel_wk.hw2:schematic).I2 binding :schematic;
+
+
+endconfig

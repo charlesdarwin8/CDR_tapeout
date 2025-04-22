@@ -1,0 +1,16 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sun Apr 20 16:23:38 2025 
+Best design point: 1
+Design specs: 
+	vineel_wk_209as_vco_phase_noise_1	corner	TT_noise - 
+	(sqrt(integ((10**(pn('pnoise) / 10)) 1e+07 1e+09 " ")) / (6.28 * 6e+09))		10.41f
+	vineel_wk_209as_vco_phase_noise_1	corner	Nominal - 
+	(sqrt(integ((10**(pn('pnoise) / 10)) 1e+07 1e+09 " ")) / (6.28 * 6e+09))		10.41f
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 1
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Sun Apr 20 16:23:57 2025 

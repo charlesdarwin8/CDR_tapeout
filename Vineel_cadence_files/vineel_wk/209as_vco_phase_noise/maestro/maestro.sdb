@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<setupdb version="7">maestro
+	<active>Active Setup
+		<jobcontrolmode>LSCS</jobcontrolmode>
+		<corners>
+			<corner enabled="1">_default</corner>
+			<corner enabled="0">C0
+				<models>
+					<model enabled="1">cr018gpii_v1d0.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/w/class.1/ee/ee209b/ee209bta/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs</modelfile>
+						<modelsection>"ss"</modelsection>
+					</model>
+					<model enabled="1">cr018gpii_v1d0.scs:1
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/w/class.1/ee/ee209b/ee209bta/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs</modelfile>
+						<modelsection>"ss_mim"</modelsection>
+					</model>
+					<model enabled="1">cr018gpii_v1d0.scs:2
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/w/class.1/ee/ee209b/ee209bta/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs</modelfile>
+						<modelsection>"ss_res"</modelsection>
+					</model>
+					<model enabled="1">cr018gpii_v1d0.scs:3
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/w/class.1/ee/ee209b/ee209bta/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs</modelfile>
+						<modelsection>"ss_bbmvar"</modelsection>
+					</model>
+					<model enabled="1">cr018gpii_v1d0.scs:4
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/w/class.1/ee/ee209b/ee209bta/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs</modelfile>
+						<modelsection>"stat_noise"</modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="1">TT_noise
+				<models>
+					<model enabled="1">cr018gpii_v1d0.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/w/class.1/ee/ee209b/ee209bta/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs</modelfile>
+						<modelsection>"tt"</modelsection>
+					</model>
+					<model enabled="1">cr018gpii_v1d0.scs:1
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/w/class.1/ee/ee209b/ee209bta/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs</modelfile>
+						<modelsection>"stat_noise"</modelsection>
+					</model>
+					<model enabled="1">cr018gpii_v1d0.scs:2
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/w/class.1/ee/ee209b/ee209bta/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs</modelfile>
+						<modelsection>"tt_mim"</modelsection>
+					</model>
+					<model enabled="1">cr018gpii_v1d0.scs:3
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/w/class.1/ee/ee209b/ee209bta/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs</modelfile>
+						<modelsection>"tt_bbmvar"</modelsection>
+					</model>
+					<model enabled="1">cr018gpii_v1d0.scs:4
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/w/class.1/ee/ee209b/ee209bta/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs</modelfile>
+						<modelsection>"tt_res"</modelsection>
+					</model>
+				</models>
+			</corner>
+		</corners>
+		<sharedvarinfo></sharedvarinfo>
+		<overwritehistory>0</overwritehistory>
+		<tests>
+			<test enabled="1">vineel_wk_209as_vco_phase_noise_1
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>209as_vco_phase_noise</value>
+					</option>
+					<option>lib
+						<value>vineel_wk</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>config</value>
+					</option>
+					<option>state
+						<value>active</value>
+					</option>
+				</tooloptions>
+				<vars>
+					<var>vdd
+						<value>1.8</value>
+					</var>
+					<var>vctrl
+						<value>0.9</value>
+					</var>
+				</vars>
+				<note>
+					<tooltip></tooltip>
+				</note>
+				<outputs>
+					<output>VT("/outb")
+						<evalType>point</evalType>
+					</output>
+				</outputs>
+			</test>
+		</tests>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<checksasserts netlist="0">
+			<test netlist="0" netlistscope="all">vineel_wk_209as_vco_phase_noise_1</test>
+		</checksasserts>
+		<plottingoptions>
+			<plottingoption>waveformtemplate
+				<value>(None)</value>
+			</plottingoption>
+			<plottingoption>plottingmode
+				<value>Replace</value>
+			</plottingoption>
+			<plottingoption>plottype
+				<value>None</value>
+			</plottingoption>
+			<plottingoption>usewaveformtemplate
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>useMaestroPlottingTemplate
+				<value>yes</value>
+			</plottingoption>
+			<plottingoption>allplottingtemplates
+				<value></value>
+			</plottingoption>
+			<plottingoption>defaultplottingtemplate
+				<value></value>
+			</plottingoption>
+			<plottingoption>distributedplot_enabled
+				<value>no</value>
+			</plottingoption>
+		</plottingoptions>
+		<exploreroptions>
+			<exploreroption>waveformtemplate
+				<value>(None)</value>
+			</exploreroption>
+		</exploreroptions>
+		<incrementalsimsetup>
+			<useincremental>0</useincremental>
+			<reusenetlist>0</reusenetlist>
+			<reusesaverunhist>0</reusesaverunhist>
+			<copyreferenceresults>1</copyreferenceresults>
+		</incrementalsimsetup>
+		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
+	</active>
+	<history>History
+	</history>
+</setupdb>

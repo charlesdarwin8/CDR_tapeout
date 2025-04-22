@@ -1,0 +1,22 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Mon Apr 21 17:27:42 2025 
+Best design point: 8
+Design specs: 
+	vineel_wk_tb_hw2_1	corner	C0 - 
+	frequency of 10th cycle		2.691G
+	F_in over 2		4.75G
+	Average_current		-167.2u
+	average(IT("/V0/PLUS"))		-165.2u
+	vineel_wk_tb_hw2_1	corner	Nominal - 
+	frequency of 10th cycle		3.167G
+	F_in over 2		4.75G
+	Average_current		-199.8u
+	average(IT("/V0/PLUS"))		-198.2u
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 9
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Mon Apr 21 17:28:10 2025 

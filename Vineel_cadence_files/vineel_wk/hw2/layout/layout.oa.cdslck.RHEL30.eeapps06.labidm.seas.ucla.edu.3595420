@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      vineelchandra99
+HostName                       eeapps06.labidm.seas.ucla.edu
+ProcessIdentifier              3595420
+ProcessCreationTime_UTC        1738557636
+ProcessCreationTime_Readable   Sun Feb  2 20:40:36 2025 PST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /w/home.24/home/vineelchandra99/tsmc180test/vineel_wk/hw2/layout/layout.oa.cdslck.dirlck
+TimeEditLocked                 Sun Feb  2 20:43:23 2025 PST

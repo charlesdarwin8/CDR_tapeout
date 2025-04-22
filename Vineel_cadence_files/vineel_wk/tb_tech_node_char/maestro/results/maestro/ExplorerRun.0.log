@@ -1,0 +1,15 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Jan 23 00:20:46 2025 
+Best design point: 1
+Design specs: 
+	vineel_wk_tb_tech_node_char_1	corner	Nominal - 
+	delay(?wf1 VT("/vb") ?value1 (VAR("vdd") / 2) ?edge1 "rising" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 VT("/vc") ?value2 (VAR("vdd") / 2) ?edge2 "falling" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		26.55p
+	delay(?wf1 VT("/vb") ?value1 (VAR("vdd") / 2) ?edge1 "falling" ?nth1 1 ?td1 0.0 ?tol1 nil ?wf2 VT("/vc") ?value2 (VAR("vdd") / 2) ?edge2 "rising" ?nth2 1 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		26.42p
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 1
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Thu Jan 23 00:21:11 2025 

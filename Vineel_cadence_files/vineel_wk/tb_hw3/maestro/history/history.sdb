@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<setupdb version="7">history
+	<active>Active Setup</active>
+	<history>History
+		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">Calibre
+			<timestamp>Feb 18 14:03:03 2025</timestamp>
+			<uuid>{ad22c358-f77d-4013-aa70-072c7b3d0675}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/w/home.24/home/vineelchandra99/tsmc180test/vineel_wk/tb_hw3/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/w/home.24/home/vineelchandra99/tsmc180test/vineel_wk/tb_hw3/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/w/home.24/home/vineelchandra99/simulation/vineel_wk/tb_hw3/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/vineel_wk/tb_hw3/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">schematic
+			<timestamp>Feb 18 14:04:51 2025</timestamp>
+			<uuid>{d46d3ce9-d2fd-4538-9630-30e22148faf1}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/w/home.24/home/vineelchandra99/tsmc180test/vineel_wk/tb_hw3/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/w/home.24/home/vineelchandra99/tsmc180test/vineel_wk/tb_hw3/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/w/home.24/home/vineelchandra99/simulation/vineel_wk/tb_hw3/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/vineel_wk/tb_hw3/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">schematic_0.5G
+			<timestamp>Feb 18 17:09:44 2025</timestamp>
+			<uuid>{81e0d859-bf61-477e-9029-8a95c6197bf2}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/w/home.24/home/vineelchandra99/tsmc180test/vineel_wk/tb_hw3/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/w/home.24/home/vineelchandra99/tsmc180test/vineel_wk/tb_hw3/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/w/home.24/home/vineelchandra99/simulation/vineel_wk/tb_hw3/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/vineel_wk/tb_hw3/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Calibre_0.5G
+			<timestamp>Feb 18 17:14:22 2025</timestamp>
+			<uuid>{2878247e-5573-4572-b697-753e802a8d70}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/w/home.24/home/vineelchandra99/tsmc180test/vineel_wk/tb_hw3/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/w/home.24/home/vineelchandra99/tsmc180test/vineel_wk/tb_hw3/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/w/home.24/home/vineelchandra99/simulation/vineel_wk/tb_hw3/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/vineel_wk/tb_hw3/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.0
+			<timestamp>Feb 18 17:16:05 2025</timestamp>
+			<uuid>{76cbae12-ca97-473b-ae39-bcc5a02f96c2}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/w/home.24/home/vineelchandra99/tsmc180test/vineel_wk/tb_hw3/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/w/home.24/home/vineelchandra99/tsmc180test/vineel_wk/tb_hw3/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/w/home.24/home/vineelchandra99/simulation/vineel_wk/tb_hw3/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/vineel_wk/tb_hw3/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+	</history>
+</setupdb>

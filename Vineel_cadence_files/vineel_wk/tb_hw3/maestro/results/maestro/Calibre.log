@@ -1,0 +1,16 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Tue Feb 18 14:03:03 2025 
+Best design point: 1
+Design specs: 
+	vineel_wk_tb_hw3_1	corner	Nominal - 
+	Average_current		-93.48u
+	average(IT("/V0/PLUS"))		-95.53u
+	delay(?wf1 VT("/CK") ?value1 (VAR("vdd") / 2) ?edge1 "rising" ?nth1 3 ?td1 0.0 ?tol1 nil ?wf2 VT("/out2") ?value2 (VAR("vdd") / 2) ?edge2 "rising" ?nth2 3 ?tol2 nil ?td2 nil ?stop nil ?multiple nil)		95.91p
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 1
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Tue Feb 18 14:03:17 2025 

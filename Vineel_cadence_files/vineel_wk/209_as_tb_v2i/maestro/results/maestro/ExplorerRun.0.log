@@ -1,0 +1,19 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Tue Apr 15 14:43:45 2025 
+Best design point: 1
+Design specs: 
+	vineel_wk_209_as_tb_v2i_1	corner	Nominal - 
+	VT("/VINP")		Error	No
+	VT("/VINM")		Error	No
+	average(IT("/V6/PLUS"))		371u
+	average(IT("/V8/PLUS"))		515.7u
+	average(IT("/V9/PLUS"))		-4.186u
+	average(IT("/V10/PLUS"))		-48.32n
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 1
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Tue Apr 15 14:44:01 2025 

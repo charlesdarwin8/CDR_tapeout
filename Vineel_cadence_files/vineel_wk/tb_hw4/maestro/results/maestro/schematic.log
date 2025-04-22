@@ -1,0 +1,14 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sat Feb 22 15:17:25 2025 
+Best design point: 1
+Design specs: 
+	vineel_wk_tb_hw4_1	corner	Nominal - 
+	average(IT("/V0/PLUS"))		-8.458u
+Design parameters: 
+
+Interactive.1
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.1 completed. 
+Current time: Sat Feb 22 15:17:58 2025 

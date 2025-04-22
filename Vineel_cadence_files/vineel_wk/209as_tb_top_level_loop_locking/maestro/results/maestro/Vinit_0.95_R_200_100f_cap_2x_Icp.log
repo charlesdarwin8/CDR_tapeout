@@ -1,0 +1,14 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Tue Apr  8 14:58:22 2025 
+Best design point: 1
+Design specs: 
+	vineel_wk_209as_tb_top_level_loop_locking_1	corner	Nominal - 
+	average(clip(IT("/C0/PLUS") 4e-06 8e-06))		-16.34n
+Design parameters: 
+
+Interactive.2
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.2 completed. 
+Current time: Tue Apr  8 15:22:02 2025 

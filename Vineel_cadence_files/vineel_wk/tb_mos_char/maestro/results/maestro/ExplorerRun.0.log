@@ -1,0 +1,23 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Wed Apr  9 17:57:45 2025 
+Best design point: 1
+Design specs: 
+	vineel_wk_tb_mos_char_1	corner	Nominal - 
+	OS("/M1" "ft")		Error	No
+	OS("/M1" "gmoverid")		Error	No
+	(OS("/M1" "gm") / OS("/M1" "cgg") / 6.28)		Error	No
+	IDC("/M9/D")		902.5u
+	(OS("/M8" "gm") / OS("/M8" "cgg"))		91.45G
+	OS("/M8" "gmoverid")		12.82
+	OS("/M5" "gmoverid")		2.581
+	(OS("/M5" "gm") / OS("/M5" "cgg"))		59.23G
+	OS("/M27" "gm")		871.4u
+	OS("/M27" "gmoverid")		3.772
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 1
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Wed Apr  9 17:57:55 2025 

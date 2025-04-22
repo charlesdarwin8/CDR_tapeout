@@ -1,0 +1,22 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Tue Apr  8 00:00:00 2025 
+Best design point: 1
+Design specs: 
+	vineel_wk_tb_hw5_1	corner	Nominal - 
+	i_avg		Error	No
+	freq		Error	No
+	avg_power		Error	No
+	VT("/VO1")		Error	No
+	VT("/VO2")		Error	No
+	IT("/V0/PLUS")		Error	No
+	IT("/I0/M0/D")		Error	No
+	IT("/I0/M10/D")		Error	No
+	IT("/I0/M9/D")		Error	No
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 1
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Tue Apr  8 00:00:34 2025 

@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<setupdb version="7">maestro
+	<active>Active Setup
+		<jobcontrolmode>LSCS</jobcontrolmode>
+		<corners>
+			<corner enabled="1">_default</corner>
+			<corner enabled="1">C0
+				<models>
+					<model enabled="1">cr018gpii_v1d0.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/w/class.1/ee/ee209b/ee209bta/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs</modelfile>
+						<modelsection>"ss"</modelsection>
+					</model>
+					<model enabled="1">cr018gpii_v1d0.scs:32
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/w/class.1/ee/ee209b/ee209bta/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs</modelfile>
+						<modelsection>"stat_noise"</modelsection>
+					</model>
+				</models>
+			</corner>
+		</corners>
+		<sharedvarinfo></sharedvarinfo>
+		<overwritehistory>0</overwritehistory>
+		<tests>
+			<test enabled="1">vineel_wk_tb_hw2_1
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>tb_hw2</value>
+					</option>
+					<option>lib
+						<value>vineel_wk</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>config</value>
+					</option>
+					<option>state
+						<value>active</value>
+					</option>
+				</tooloptions>
+				<vars>
+					<var>vdd
+						<value>1.8</value>
+					</var>
+					<var>f
+						<value>{From/To}Linear:6G:0.5G:10G{From/To}</value>
+					</var>
+				</vars>
+				<outputs>
+					<output>F_in over 2
+						<evalType>point</evalType>
+					</output>
+					<output>frequency of 10th cycle
+						<evalType>point</evalType>
+					</output>
+				</outputs>
+				<note>
+					<tooltip></tooltip>
+				</note>
+			</test>
+		</tests>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<checksasserts netlist="0">
+			<test netlist="0" netlistscope="all">vineel_wk_tb_hw2_1</test>
+		</checksasserts>
+		<plottingoptions>
+			<plottingoption>waveformtemplate
+				<value>(None)</value>
+			</plottingoption>
+			<plottingoption>plottingmode
+				<value>Append</value>
+			</plottingoption>
+			<plottingoption>plottype
+				<value>None</value>
+			</plottingoption>
+			<plottingoption>usewaveformtemplate
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>useMaestroPlottingTemplate
+				<value>yes</value>
+			</plottingoption>
+			<plottingoption>allplottingtemplates
+				<value></value>
+			</plottingoption>
+			<plottingoption>defaultplottingtemplate
+				<value></value>
+			</plottingoption>
+			<plottingoption>distributedplot_enabled
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>autoplotmode
+				<value>Replace</value>
+			</plottingoption>
+		</plottingoptions>
+		<exploreroptions>
+			<exploreroption>waveformtemplate
+				<value>(None)</value>
+			</exploreroption>
+			<exploreroption>autoplotmode
+				<value>Replace</value>
+			</exploreroption>
+		</exploreroptions>
+		<incrementalsimsetup>
+			<useincremental>0</useincremental>
+			<reusenetlist>0</reusenetlist>
+			<reusesaverunhist>0</reusesaverunhist>
+			<copyreferenceresults>1</copyreferenceresults>
+		</incrementalsimsetup>
+		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
+		<jobpolicyname>Maestro Default</jobpolicyname>
+		<netlistjobpolicyname>Netlisting Default</netlistjobpolicyname>
+	</active>
+	<history>History
+	</history>
+</setupdb>

@@ -1,0 +1,22 @@
+// VerilogA for vineel_wk, va_RBS, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module va_RBS(out);
+    output out;
+    electrical out;
+    parameter real start = 0.0;
+    parameter real period = 1.0;
+    parameter integer seed = 0;
+    integer x, y;
+
+    analog begin
+	@(initial_step)
+	    y = seed;
+	@(timer(start, period))
+	    x = ($random(y) >= 0) ? 1 : 0;
+	V(out) <+ transition( x, 0.0, period/100.0 );
+    end
+
+endmodule

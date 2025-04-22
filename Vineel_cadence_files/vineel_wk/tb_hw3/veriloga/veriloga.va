@@ -1,0 +1,9 @@
+// VerilogA for vineel_wk, tb_hw3, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module tb_hw3;
+
+
+endmodule

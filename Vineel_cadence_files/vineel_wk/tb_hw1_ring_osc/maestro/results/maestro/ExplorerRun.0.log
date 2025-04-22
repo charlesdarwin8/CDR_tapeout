@@ -1,0 +1,16 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sun Jan 12 22:33:36 2025 
+Best design point: 1
+Design specs: 
+	vineel_wk_tb_hw1_ring_osc_1	corner	Nominal - 
+	ring_osc_i_avg		-457.2u
+	ring_osc_freq		5.931G
+	ring_osc_avg_power		-822.9u
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 1
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Sun Jan 12 22:33:48 2025 
