@@ -1,0 +1,20 @@
+//Revision 18
+//NOTE
+// Default template for spectre
+// Note:
+//      Please remember to replace Top Cell Library, Cell, and View
+//      fields with the actual names used by your design.
+//END_NOTE
+
+config tb_CDR_top_level;
+design tapeout_fullrate.tb_CDR_top_level:schematic;
+liblist myLib;
+
+viewlist spectre, cmos_sch, \cmos.sch , schematic, veriloga, ahdl, pspice, dspf;
+stoplist spectre;
+
+
+inst (tapeout_fullrate.CDR_top_level:schematic).IVCO binding :calibre_R_extra_vias_vss;
+
+
+endconfig

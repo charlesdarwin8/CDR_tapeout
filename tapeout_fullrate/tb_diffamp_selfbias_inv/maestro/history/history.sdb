@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<setupdb version="7">history
+	<active>Active Setup</active>
+	<history>History
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">schem_8b_10b
+			<timestamp>May 6 10:54:12 2025</timestamp>
+			<uuid>{ded6598f-c3e4-4e1f-a6cc-80937c156674}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/tapeout_fullrate/tb_diffamp_selfbias_inv/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/tapeout_fullrate/tb_diffamp_selfbias_inv/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/w/home.24/home/vineelchandra99/simulation/tapeout_fullrate/tb_diffamp_selfbias_inv/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/tapeout_fullrate/tb_diffamp_selfbias_inv/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">mux_extracted_8b_10b
+			<timestamp>May 6 10:55:56 2025</timestamp>
+			<uuid>{4b03e4ff-683b-496b-a481-fd2547aa1cd5}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/tapeout_fullrate/tb_diffamp_selfbias_inv/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/tapeout_fullrate/tb_diffamp_selfbias_inv/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/w/home.24/home/vineelchandra99/simulation/tapeout_fullrate/tb_diffamp_selfbias_inv/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/tapeout_fullrate/tb_diffamp_selfbias_inv/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
+			<timestamp>May 6 11:46:32 2025</timestamp>
+			<uuid>{b1980346-9948-4a79-b3fa-13eb0851f7ac}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/tapeout_fullrate/tb_diffamp_selfbias_inv/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/tapeout_fullrate/tb_diffamp_selfbias_inv/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/w/home.24/home/vineelchandra99/simulation/tapeout_fullrate/tb_diffamp_selfbias_inv/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/tapeout_fullrate/tb_diffamp_selfbias_inv/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">diffamp_selfbias_inv_extracted_8b_10b
+			<timestamp>May 6 23:33:59 2025</timestamp>
+			<uuid>{4c15633a-728d-40c3-9eb4-e93327222cef}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/tapeout_fullrate/tb_diffamp_selfbias_inv/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/tapeout_fullrate/tb_diffamp_selfbias_inv/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/w/home.24/home/vineelchandra99/simulation/tapeout_fullrate/tb_diffamp_selfbias_inv/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/tapeout_fullrate/tb_diffamp_selfbias_inv/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">diffamp_selfbias_inv_extracted_prbs11_30p
+			<timestamp>May 6 23:44:42 2025</timestamp>
+			<uuid>{bff7ebb9-720c-4a8d-87e3-efda6b347245}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/tapeout_fullrate/tb_diffamp_selfbias_inv/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/tapeout_fullrate/tb_diffamp_selfbias_inv/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/w/home.24/home/vineelchandra99/simulation/tapeout_fullrate/tb_diffamp_selfbias_inv/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/tapeout_fullrate/tb_diffamp_selfbias_inv/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+	</history>
+</setupdb>

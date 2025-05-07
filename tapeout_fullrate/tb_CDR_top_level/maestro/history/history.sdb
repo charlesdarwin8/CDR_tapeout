@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<setupdb version="7">history
+	<active>Active Setup</active>
+	<history>History
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.0
+			<timestamp>Apr 30 17:23:12 2025</timestamp>
+			<uuid>{c25f0eee-2d3d-4605-8e58-e7635b731242}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/tapeout_fullrate/tb_CDR_top_level/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/tapeout_fullrate/tb_CDR_top_level/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/w/home.24/home/vineelchandra99/simulation/tapeout_fullrate/tb_CDR_top_level/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/tapeout_fullrate/tb_CDR_top_level/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.1
+			<timestamp>Apr 30 17:59:30 2025</timestamp>
+			<uuid>{7c383d45-f4bf-4976-849d-1b8216e4ad0d}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/tapeout_fullrate/tb_CDR_top_level/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/tapeout_fullrate/tb_CDR_top_level/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/w/home.24/home/vineelchandra99/simulation/tapeout_fullrate/tb_CDR_top_level/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/tapeout_fullrate/tb_CDR_top_level/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.2
+			<timestamp>Apr 30 18:32:29 2025</timestamp>
+			<uuid>{c7c5b303-4a4e-4d1c-ad52-6ca79145b52b}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/tapeout_fullrate/tb_CDR_top_level/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/tapeout_fullrate/tb_CDR_top_level/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/w/home.24/home/vineelchandra99/simulation/tapeout_fullrate/tb_CDR_top_level/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/tapeout_fullrate/tb_CDR_top_level/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
+			<timestamp>May 5 16:12:04 2025</timestamp>
+			<uuid>{6fb9def5-c542-4fd0-92ae-72c460d9707e}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/tapeout_fullrate/tb_CDR_top_level/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/tapeout_fullrate/tb_CDR_top_level/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/w/home.24/home/vineelchandra99/simulation/tapeout_fullrate/tb_CDR_top_level/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/tapeout_fullrate/tb_CDR_top_level/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+	</history>
+</setupdb>

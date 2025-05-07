@@ -1,0 +1,28 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Tue May  6 23:34:00 2025 
+Best design point: 1
+Design specs: 
+	tapeout_fullrate_tb_diffamp_selfbias_inv_1	corner	Nominal - 
+	eye_OUT		Error	No
+	eye_randJitterLeft		Error	No
+	eye_p2pJitterLeft		Error	No
+	VOUTP_p2p_jitter_0.877_vth		6.02p
+	VOUTP_p2p_jitter_0.9_vth		7.588p
+	(VT("/I0/vo1") - VT("/I0/I4/vi"))		Error	No
+	eyeDiagram(VT("/OUT") 7e-07 8e-06 (2 * 3.33e-10) ?triggerPeriod 3.33e-10 ?autoCenter t)		Error	No
+	eyeDiagram(VT("/OUT") 4e-07 1e-06 (2 * 3.33e-10) ?triggerPeriod 3.33e-10 ?autoCenter t)		Error	No
+	eyeDiagram(VT("/VOUTP") 4e-07 1e-06 (2 * 3.33e-10) ?triggerPeriod 3.33e-10 ?autoCenter t)		Error	No
+	VT("/I0/Va")		Error	No
+	VT("/I0/Vb")		Error	No
+	VT("/I0/vo1")		Error	No
+	VT("/I0/vo2")		Error	No
+	eyeDiagram(VT("/I0/Va") 2e-07 3e-07 (2 * 3.33e-10) ?triggerPeriod 3.33e-10 ?autoCenter t)		Error	No
+	eyeDiagram(VT("/I0/vo1") 2e-07 3e-07 (2 * 3.33e-10) ?triggerPeriod 3.33e-10 ?autoCenter t)		Error	No
+Design parameters: 
+
+Interactive.0
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.0 completed. 
+Current time: Tue May  6 23:35:09 2025 

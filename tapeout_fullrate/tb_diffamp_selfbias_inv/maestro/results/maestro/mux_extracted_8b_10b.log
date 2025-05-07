@@ -1,0 +1,17 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Tue May  6 10:55:57 2025 
+Best design point: 2
+Design specs: 
+	tapeout_fullrate_tb_diffamp_selfbias_inv_1	corner	Nominal - 
+	eye_randJitterLeft		1.93p
+	eye_p2pJitterLeft		12.82p
+	VOUTP_p2p_jitter_0.877_vth		0
+	VOUTP_p2p_jitter_0.9_vth		0
+Design parameters: 
+
+Interactive.1
+Number of points completed: 2
+Number of simulation errors: 0
+Interactive.1 completed. 
+Current time: Tue May  6 10:58:01 2025 
