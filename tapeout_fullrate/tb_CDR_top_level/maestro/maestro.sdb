@@ -219,9 +219,6 @@
 					<output>VT("/I0/S3")
 						<evalType>point</evalType>
 					</output>
-					<output>VT("/I0/S4")
-						<evalType>point</evalType>
-					</output>
 					<output>VT("/I0/VCTRL")
 						<evalType>point</evalType>
 					</output>
