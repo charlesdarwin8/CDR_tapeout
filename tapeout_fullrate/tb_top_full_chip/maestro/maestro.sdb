@@ -68,6 +68,35 @@
 					<tooltip></tooltip>
 				</note>
 				<jobpolicyname>Maestro Default</jobpolicyname>
+				<outputs>
+					<output>clk_eye_2.5_to_5u_1ui
+						<evalType>point</evalType>
+					</output>
+					<output>clk_eye_2.5_to_7.5u_1ui
+						<evalType>point</evalType>
+					</output>
+					<output>2.5_to_5u_clk_rj
+						<evalType>point</evalType>
+					</output>
+					<output>2.5_to_5u_clk_p2p_jitter
+						<evalType>point</evalType>
+					</output>
+					<output>clk_eye_2.5_to_7.5u
+						<evalType>point</evalType>
+					</output>
+					<output>2.5_to_7.5u_clk_rj
+						<evalType>point</evalType>
+					</output>
+					<output>2.5_to_7.5u_clk_p2p_jitter
+						<evalType>point</evalType>
+					</output>
+					<output>VT("/I0/CDR/CLK")
+						<evalType>point</evalType>
+					</output>
+					<output>freq(VT("/I0/CDR/CLK") "rising" ?xName "cycle" ?mode "user" ?threshold (VAR("vdd") / 2))
+						<evalType>point</evalType>
+					</output>
+				</outputs>
 			</test>
 		</tests>
 		<disabledtests></disabledtests>
