@@ -49,7 +49,7 @@
 						<value>1.1</value>
 					</var>
 					<var>SEL
-						<value>vdd</value>
+						<value>0</value>
 					</var>
 					<var>f
 						<value>1/T</value>
