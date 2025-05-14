@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      gurusubramanian
+HostName                       eeapps07.labidm.seas.ucla.edu
+ProcessIdentifier              4011207
+ProcessCreationTime_UTC        1747255085
+ProcessCreationTime_Readable   Wed May 14 13:38:05 2025 PDT
+AppIdentifier                  /w/apps4/Cadence/IC231/tools/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /w/home.03/home/gurusubramanian/tapeout_course/git_repo/CDR_tapeout/tapeout_fullrate/top_full_chip/physConfig/physExpand.cfg
+TimeEditLocked                 Wed May 14 13:40:41 2025 PDT
