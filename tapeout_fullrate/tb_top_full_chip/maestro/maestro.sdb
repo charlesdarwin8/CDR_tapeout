@@ -63,6 +63,9 @@
 					<var>Vctrl_init
 						<value>1</value>
 					</var>
+					<var>RSEL
+						<value>vdd</value>
+					</var>
 				</vars>
 				<note>
 					<tooltip></tooltip>
@@ -94,6 +97,57 @@
 						<evalType>point</evalType>
 					</output>
 					<output>freq(VT("/I0/CDR/CLK") "rising" ?xName "cycle" ?mode "user" ?threshold (VAR("vdd") / 2))
+						<evalType>point</evalType>
+					</output>
+					<output>eyeDiagram(VT("/I0/DIFFAMP_INV/Va") 4e-07 7e-07 (2 * 3.33e-10) ?triggerPeriod 3.33e-10 ?autoCenter t)
+						<evalType>point</evalType>
+					</output>
+					<output>eyeDiagram(VT("/I0/DIFFAMP_INV/vo1") 4e-07 7e-07 (2 * 3.33e-10) ?triggerPeriod 3.33e-10 ?autoCenter t)
+						<evalType>point</evalType>
+					</output>
+					<output>eyeDiagram(VT("/I0/DIN") 3e-07 1e-06 (2 * 3.33e-10) ?triggerPeriod 3.33e-10 ?autoCenter t)
+						<evalType>point</evalType>
+					</output>
+					<output>eyeDiagram(VT("/I0/VOUTP") 3e-07 1e-06 (2 * 3.33e-10) ?triggerPeriod 3.33e-10 ?autoCenter t)
+						<evalType>point</evalType>
+					</output>
+					<output>eyeDiagram(VT("/I0/DIFFAMP_INV/Va") 3e-07 7e-07 (2 * 3.33e-10) ?triggerPeriod 3.33e-10 ?autoCenter t)
+						<evalType>point</evalType>
+					</output>
+					<output>eyeDiagram(VT("/I0/DIFFAMP_INV/vo1") 3e-07 7e-07 (2 * 3.33e-10) ?triggerPeriod 3.33e-10 ?autoCenter t)
+						<evalType>point</evalType>
+					</output>
+					<output>eyeDiagram(clip(VT("/CLK_OSC") 2.5e-06 5e-06) 2.5e-06 5e-06 (2 * 3.33e-10) ?triggerPeriod 3.33e-10 ?autoCenter t ?intensityPlot t)
+						<evalType>point</evalType>
+					</output>
+					<output>eyeDiagram(VT("/I0/DIFFAMP_INV/Va") 1e-07 7e-07 (2 * 3.33e-10) ?triggerPeriod 3.33e-10 ?autoCenter t)
+						<evalType>point</evalType>
+					</output>
+					<output>eyeDiagram(VT("/I0/DIFFAMP_INV/vo1") 1e-07 7e-07 (2 * 3.33e-10) ?triggerPeriod 3.33e-10 ?autoCenter t)
+						<evalType>point</evalType>
+					</output>
+					<output>eyeDiagram(clip(VT("/CLK_OSC") 1e-06 5e-06) 1e-06 5e-06 (2 * 3.33e-10) ?triggerPeriod 3.33e-10 ?autoCenter t ?intensityPlot t)
+						<evalType>point</evalType>
+					</output>
+					<output>eyeDiagram(clip(VT("/DATA_OSC") 1e-06 7.5e-06) 1e-06 7.5e-06 (2 * 1.665e-10) ?triggerPeriod 1.665e-10 ?autoCenter t)
+						<evalType>point</evalType>
+					</output>
+					<output>v("/I0/DIFFAMP_INV/Va" ?result "tran")
+						<evalType>point</evalType>
+					</output>
+					<output>v("/I0/DIFFAMP_INV/Vo1" ?result "tran")
+						<evalType>point</evalType>
+					</output>
+					<output>v("/I0/DIFFAMP_INV/Vb" ?result "tran")
+						<evalType>point</evalType>
+					</output>
+					<output>v("/I0/DIFFAMP_INV/vo1" ?result "tran")
+						<evalType>point</evalType>
+					</output>
+					<output>eyeDiagram(VT("/I0/DIN") 1e-07 5e-06 (2 * 3.33e-10) ?triggerPeriod 3.33e-10 ?autoCenter t)
+						<evalType>point</evalType>
+					</output>
+					<output>eyeDiagram(VT("/I0/VOUTP") 1e-07 5e-06 (2 * 3.33e-10) ?triggerPeriod 3.33e-10 ?autoCenter t)
 						<evalType>point</evalType>
 					</output>
 				</outputs>
