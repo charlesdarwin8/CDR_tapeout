@@ -1,21 +1,17 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Tue May  6 11:46:33 2025 
+Current time: Sun May 18 16:41:23 2025 
 Best design point: 1
 Design specs: 
 	tapeout_fullrate_tb_diffamp_selfbias_inv_1	corner	Nominal - 
-	eye_OUT		Error	No
-	eye_randJitterLeft		Error	No
-	eye_p2pJitterLeft		Error	No
-	VOUTP_p2p_jitter_0.877_vth		13.22p
-	VOUTP_p2p_jitter_0.9_vth		14.22p
-	eyeDiagram(VT("/OUT") 7e-07 8e-06 (2 * 3.33e-10) ?triggerPeriod 3.33e-10 ?autoCenter t)		Error	No
-	eyeDiagram(VT("/OUT") 4e-07 1e-06 (2 * 3.33e-10) ?triggerPeriod 3.33e-10 ?autoCenter t)		Error	No
-	eyeDiagram(VT("/VOUTP") 4e-07 1e-06 (2 * 3.33e-10) ?triggerPeriod 3.33e-10 ?autoCenter t)		Error	No
+	eye_randJitterLeft		2.552p
+	eye_p2pJitterLeft		19.57p
+	VOUTP_p2p_jitter_0.877_vth		22.6p
+	VOUTP_p2p_jitter_0.9_vth		21.48p
 Design parameters: 
 
 ExplorerRun.0
 Number of points completed: 1
 Number of simulation errors: 0
 ExplorerRun.0 completed. 
-Current time: Tue May  6 11:47:03 2025 
+Current time: Sun May 18 16:47:36 2025 

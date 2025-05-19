@@ -6,11 +6,11 @@
 LockStakeVersion               1.1
 LoginName                      vineelchandra99
 HostName                       eeapps01.labidm.seas.ucla.edu
-ProcessIdentifier              1258382
-ProcessCreationTime_UTC        1746843264
-ProcessCreationTime_Readable   Fri May  9 19:14:24 2025 PDT
+ProcessIdentifier              1337318
+ProcessCreationTime_UTC        1747675541
+ProcessCreationTime_Readable   Mon May 19 10:25:41 2025 PDT
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/tapeout_fullrate/tb_CDR_top_level/schematic/sch.oa.cdslck
-TimeEditLocked                 Fri May  9 19:21:02 2025 PDT
+FilePathUsedToEditLock         /w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/tapeout_fullrate/tb_top_full_chip/schematic/sch.oa.cdslck
+TimeEditLocked                 Mon May 19 11:37:04 2025 PDT

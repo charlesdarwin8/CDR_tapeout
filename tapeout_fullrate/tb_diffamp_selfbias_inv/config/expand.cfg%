@@ -1,4 +1,4 @@
-//Revision 8
+//Revision 10
 //NOTE
 // Default template for spectre
 // Note:
@@ -16,7 +16,7 @@ stoplist spectre;
 
 cell tapeout_fullrate.\209as_input_mux  binding :calibre;
 inst (tapeout_fullrate.tb_diffamp_selfbias_inv:schematic).I2 binding :schematic;
-inst (tapeout_fullrate.tb_diffamp_selfbias_inv:schematic).I0 binding :calibre;
+inst (tapeout_fullrate.tb_diffamp_selfbias_inv:schematic).I0 binding :schematic;
 
 
 endconfig

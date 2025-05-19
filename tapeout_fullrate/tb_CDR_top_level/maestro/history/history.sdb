@@ -38,9 +38,9 @@
 			<psfdir>/w/home.24/home/vineelchandra99/simulation/tapeout_fullrate/tb_CDR_top_level/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
 			<simdir>$AXL_PROJECT_DIR/tapeout_fullrate/tb_CDR_top_level/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
 		</historyentry>
-		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
-			<timestamp>May 5 16:12:04 2025</timestamp>
-			<uuid>{6fb9def5-c542-4fd0-92ae-72c460d9707e}</uuid>
+		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="running">ExplorerRun.0
+			<timestamp>May 19 11:42:58 2025</timestamp>
+			<uuid>{4a3a4dd9-7462-4a5a-a3b0-22d40bfee04b}</uuid>
 			<locked>0</locked>
 			<mode>Single Run, Sweeps and Corners</mode>
 			<resultsname>/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/tapeout_fullrate/tb_CDR_top_level/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>

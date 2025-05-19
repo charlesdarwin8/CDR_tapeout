@@ -1,21 +1,3 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Mon May  5 16:12:05 2025 
-Best design point: 1
-Design specs: 
-	tapeout_fullrate_tb_CDR_top_level_1	corner	Nominal - 
-	IT("/C0/PLUS")		Error	No
-	VT("/I0/S4")		Error	No
-	average(clip(IT("/C0/PLUS") 4e-06 8e-06))		Error	No
-	((VT("/out") + VT("/outb")) / 2)		Error	No
-	2.5_to_5u_clk_rj		2.422p
-	2.5_to_5u_clk_p2p_jitter		20.26p
-	2.5_to_7.5u_clk_rj		2.422p
-	2.5_to_7.5u_clk_p2p_jitter		20.26p
-Design parameters: 
-
-ExplorerRun.0
-Number of points completed: 1
-Number of simulation errors: 0
-ExplorerRun.0 completed. 
-Current time: Mon May  5 16:41:44 2025 
+Current time: Mon May 19 11:42:59 2025 

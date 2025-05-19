@@ -50,7 +50,7 @@
 						<value>1</value>
 					</var>
 					<var>SEL
-						<value>1</value>
+						<value>vdd 0</value>
 					</var>
 					<var>RSEL
 						<value>vdd</value>
@@ -63,43 +63,10 @@
 					<tooltip></tooltip>
 				</note>
 				<outputs>
-					<output>(VT("/I0/XDIFFAMP_INV_VO1") - VT("/I0/XDIFFAMP_INV_XI4_VI"))
-						<evalType>point</evalType>
-					</output>
 					<output>clk_eye_2.5_to_5u_1ui
 						<evalType>point</evalType>
 					</output>
-					<output>clk_eye_2.5_to_7.5u_1ui
-						<evalType>point</evalType>
-					</output>
-					<output>2.5_to_5u_clk_rj
-						<evalType>point</evalType>
-					</output>
-					<output>2.5_to_5u_clk_p2p_jitter
-						<evalType>point</evalType>
-					</output>
-					<output>clk_eye_2.5_to_7.5u
-						<evalType>point</evalType>
-					</output>
-					<output>2.5_to_7.5u_clk_rj
-						<evalType>point</evalType>
-					</output>
-					<output>2.5_to_7.5u_clk_p2p_jitter
-						<evalType>point</evalType>
-					</output>
-					<output>VT("/I0/XDIFFAMP_INV_VA")
-						<evalType>point</evalType>
-					</output>
-					<output>VT("/I0/XDIFFAMP_INV_VB")
-						<evalType>point</evalType>
-					</output>
-					<output>VT("/I0/XDIFFAMP_INV_VO1")
-						<evalType>point</evalType>
-					</output>
 					<output>VT("/I0/XDIFFAMP_INV/VO2")
-						<evalType>point</evalType>
-					</output>
-					<output>VT("/I0/XDIFFAMP_INV_VO2")
 						<evalType>point</evalType>
 					</output>
 					<output>eyeDiagram(VT("/I0/XDIFFAMP_INV_VA") 3e-07 7e-07 (2 * 3.33e-10) ?triggerPeriod 3.33e-10 ?autoCenter t)
@@ -114,22 +81,32 @@
 					<output>VT("/I0/XCDR_VCTRL")
 						<evalType>point</evalType>
 					</output>
-					<output>VT("/I0/XCDR_DIFFINP")
-						<evalType>point</evalType>
-					</output>
 					<output>VT("/I0/S3")
-						<evalType>point</evalType>
-					</output>
-					<output>VT("/I0/XCDR_DIFFINM")
-						<evalType>point</evalType>
-					</output>
-					<output>IT("/I0/XCDR_XILF_VCTRL")
 						<evalType>point</evalType>
 					</output>
 					<output>eyeDiagram(clip(VT("/DATA_OSC") 2.5e-06 7.5e-06) 2.5e-06 7.5e-06 (2 * 1.665e-10) ?triggerPeriod 1.665e-10 ?autoCenter t)
 						<evalType>point</evalType>
 					</output>
+					<output>eyeDiagram(VT("/I0/DIN") 2e-06 5e-06 (2 * 3.33e-10) ?triggerPeriod 3.33e-10 ?autoCenter t)
+						<evalType>point</evalType>
+					</output>
+					<output>eyeDiagram(clip(VT("/CLK_OSC") 2e-06 5e-06) 2e-06 5e-06 (2 * 3.33e-10) ?triggerPeriod 3.33e-10 ?autoCenter t ?intensityPlot t)
+						<evalType>point</evalType>
+					</output>
+					<output>eyeDiagram(clip(VT("/DATA_OSC") 2e-06 7.5e-06) 2.5e-06 7.5e-06 (2 * 1.665e-10) ?triggerPeriod 1.665e-10 ?autoCenter t)
+						<evalType>point</evalType>
+					</output>
+					<output>eyeDiagram(clip(VT("/DATA_OSC") 2e-06 7.5e-06) 2e-06 7.5e-06 (2 * 1.665e-10) ?triggerPeriod 1.665e-10 ?autoCenter t)
+						<evalType>point</evalType>
+					</output>
+					<output>VT("/I0/VCTRL")
+						<evalType>point</evalType>
+					</output>
+					<output>freq(VT("/VO2") "rising" ?xName "cycle" ?mode "user" ?threshold (VAR("vdd") / 2))
+						<evalType>point</evalType>
+					</output>
 				</outputs>
+				<jobpolicyname>Maestro Default</jobpolicyname>
 			</test>
 		</tests>
 		<currentmode>Single Run, Sweeps and Corners</currentmode>
@@ -184,6 +161,11 @@
 			<copyreferenceresults>1</copyreferenceresults>
 		</incrementalsimsetup>
 		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
+		<jobpolicyname>Maestro Default</jobpolicyname>
+		<netlistjobpolicyname>Netlisting Default</netlistjobpolicyname>
+		<incrementalsimulationoptions>
+			<incrementalSimulation>0</incrementalSimulation>
+		</incrementalsimulationoptions>
 	</active>
 	<history>History
 	</history>

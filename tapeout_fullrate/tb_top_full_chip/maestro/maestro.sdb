@@ -49,7 +49,7 @@
 						<value>1.1</value>
 					</var>
 					<var>SEL
-						<value>0</value>
+						<value>0 vdd</value>
 					</var>
 					<var>f
 						<value>1/T</value>
@@ -201,6 +201,7 @@
 		<incrementalsimulationoptions>
 			<incrementalSimulation>0</incrementalSimulation>
 		</incrementalsimulationoptions>
+		<netlistjobpolicyname>Netlisting Default</netlistjobpolicyname>
 	</active>
 	<history>History
 	</history>
