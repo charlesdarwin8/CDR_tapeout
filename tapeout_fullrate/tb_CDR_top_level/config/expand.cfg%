@@ -1,4 +1,4 @@
-//Revision 22
+//Revision 30
 //NOTE
 // Default template for spectre
 // Note:
@@ -15,7 +15,7 @@ stoplist spectre;
 
 
 inst (tapeout_fullrate.CDR_top_level:schematic).IVCO binding :calibre_R_extra_vias_vss;
-inst (tapeout_fullrate.tb_CDR_top_level:schematic).I0 binding :calibre_cc;
+inst (tapeout_fullrate.tb_CDR_top_level:schematic).I0 binding :calibre_rcc;
 
 
 endconfig

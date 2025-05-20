@@ -1,6 +1,19 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Wed Apr 30 17:59:31 2025 
-Received stop signal from user. 
+Current time: Mon May 19 14:54:19 2025 
+Best design point: 1
+Design specs: 
+	tapeout_fullrate_tb_CDR_top_level_1	corner	Nominal - 
+	IT("/I0/ILF/VCTRL")		Error	No
+	2.5_to_5u_clk_rj		1.148p
+	2.5_to_5u_clk_p2p_jitter		22.37p
+	2.5_to_7.5u_clk_rj		1.148p
+	2.5_to_7.5u_clk_p2p_jitter		22.37p
+	average(clip(IT("/I0/VDD") 1e-06 3e-06))		2.902m
+Design parameters: 
+
+Interactive.1
+Number of points completed: 1
+Number of simulation errors: 0
 Interactive.1 completed. 
-Current time: Wed Apr 30 18:28:02 2025 
+Current time: Mon May 19 16:26:43 2025 

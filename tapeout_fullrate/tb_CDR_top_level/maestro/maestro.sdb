@@ -154,6 +154,9 @@
 					<var>T
 						<value>333p</value>
 					</var>
+					<var>f
+						<value>1/T</value>
+					</var>
 				</vars>
 				<note>
 					<tooltip></tooltip>
@@ -220,6 +223,9 @@
 						<evalType>point</evalType>
 					</output>
 					<output>VT("/I0/VCTRL")
+						<evalType>point</evalType>
+					</output>
+					<output>clk_eye_2.5_to_5u_1ui
 						<evalType>point</evalType>
 					</output>
 				</outputs>
