@@ -1,0 +1,7 @@
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic 
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE tsmc18 $PDK_HOME//tsmc18
+DEFINE avTech  /w/apps4/Cadence/ASSURA41/tools/assura/etc/avtech/avTech
+DEFINE ahdlLib /w/apps4/Cadence/IC231/tools/dfII/samples/artist/ahdlLib
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE functional $CDSHOME/tools/dfII/etc/cdslib/artist/functional
