@@ -1,0 +1,140 @@
+\# Program start time:     UTC 2025.05.21 21:45:14.937
+\# Local time: PDT (UTC-07:00) 2025.05.21 14:45:14.937
+\o Program:		@(#)$CDS: Virtuoso Studio version IC23.1-64b 05/22/2024 07:43 (cpgbld16) $
+\o Hierarchy:		/w/apps4/Cadence/IC231/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC23.1-64b.ISR7.27  (64-bit addresses)
+\# Command line:	/w/apps4/Cadence/IC231/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost eeapps01.labidm.seas.ucla.edu -beanport 11512 -beanbinlog  -beanLogFile /w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/amps_Service1.log -mpssession virtuoso2228889 -mpshost eeapps01.labidm.seas.ucla.edu -davinciService DaVinciService_2228889_1747863911 -scopedPid 2228889 -axlSession fnxSession0 -axlServiceIdFlag 1 -uuid 2db5e4d0-60c5-447c-be83-2c27016e2b08 -heartbeat /dev/shm/swift-heartbeat.Y3jowoGaJx -log /w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service1.log -adeBrokerAddress eeapps01.labidm.seas.ucla.edu:44077 -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D6DEA9A1E9F6ED92177E0DA4BCC37CC3E6BEEC2129F67D0227DAAD24ECD3FC87766E3A12FFC06BC4D0ECDC677B56ED46300001EAB -interactive -offlineExprEval -upfrontMode -fenixMode explorer -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Host name (type):	eeapps01.labidm.seas.ucla.edu (x86_64)
+\# Operating system:	Linux 4.18.0-553.22.1.el8_10.x86_64 #1 SMP Wed Sep 11 18:02:00 EDT 2024
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:8797 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        739 MB
+\# Available memory:	     44,388 MB
+\# System memory:	     71,981 MB
+\# Maximum memory size:	     71,413 MB
+\# Max mem available:	     44,559 MB
+\# Initial memory used:	        171 MB
+\#        process size:	      1,693 MB
+\# Thread usage limits (effective/default):	maxthreads 254923/254923 maxload 32.00/32.00
+\# Qt version:		5.15.9
+\# Window Manager:	other
+\# User Name:		vineelchandra99
+\o Working Directory:	eeapps01.labidm.seas.ucla.edu:/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac
+\# Process Id:		2271706
+\o 
+\o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading im.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading layers.cxt 
+\o Loading drv.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\# Memory report: using         285 MB, process size 1,810 MB at UTC 2025.05.21 21:45:17.149
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading analog.cxt 
+\o Loading par.cxt 
+\o Loading asimenv.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o Loading sipLayout.cxt 
+\o Loading diagCenter.cxt 
+\o INFO (ELI-00333) Client process connection mode is LSCS.
+\# [14:45:14.223129] Configured Lic search path (23.02-s006): 5281@lm-cadence.seas.ucla.edu
+\w *WARNING* LIB analogLib from File /w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/cds.lib Line 6 redefines
+\w LIB analogLib from the same file (defined earlier.)
+\w *WARNING* '/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/cds.lib', Line 7: Skipping: 'DAC'
+\o  /w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/DAC
+\w *WARNING* The directory: '/w/apps4/Cadence/IC231/tools.lnx86/dfII/etc/cdslib/artist/functionalDEFINE' does not exist
+\w 	but was defined in libFile '/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/cds.lib' for Lib 'functional'.
+\o "########## Loading Calibre ###################################"
+\o "Loading /w/apps4/Mentor/Calibre/2024.3_16.10/aok_cal_2024.3_16.10/shared/pkgs/icv/tools/queryskl/calibre.OA.skl"
+\o //
+\o //  Calibre Skill Interface * (v2024.3_16.10) *
+\o //
+\o //                         Copyright Siemens 1996-2020     
+\o //                             All Rights Reserved.
+\o //         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //            WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //
+\p > 
+\o Loading le.cxt 
+\w *WARNING* could not load font "-*-courier-medium-r-*-*-12-*", using font "fixed"
+\w *WARNING* could not load font "-*-helvetica-medium-r-*-*-12-*", using font "fixed"
+\w *WARNING* Font name -*-helvetica-medium-r-*-*-12-* is invalid 
+\w *WARNING* Font name -*-helvetica-medium-r-*-*-12-* is invalid 
+\w *WARNING* Font name -*-helvetica-medium-r-*-*-12-* is invalid 
+\o Loading tilp.cxt 
+\o Loading validator.cxt 
+\o Loading vrf.cxt 
+\o Loading multiTechPlugin.cxt 
+\o Loading exportDie.cxt 
+\o Initializing from libInit.il for library tsmc18...
+\w *WARNING* (loadContext): context /grid/cic/ciccm_t1nb_018/IC23.1/ISR/lnx86/64/builds/240522-027/tools/dfII/etc/context/64bit/pCellGen.cxt already loaded
+\o    --  pcell18v1a.cdn
+\o    --  tsmc18_updateCDFs.ile
+\o    --  tsmc18.cxt
+\o Loading PDK Display File '/w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../display.drf'
+\o Loading spectrei.cxt 
+\# Memory report: using         437 MB, process size 2,004 MB at UTC 2025.05.21 21:45:21.415
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading vdsil.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\# The Health Monitor tool is installed. You can access it from CIW - Tools - Diagnostic Center or use the shell command 'cdsPerfDiag -p 2271706' to open it when Virtuoso freezes.
+\# INFO (PerfDiag): The private spectre.envOpts environment variable 'controlMode' is set to value '"batch"' different than default value '"interactive"'.
+\# INFO (PerfDiag): The private spectre.envOpts environment variable 'modelFiles' is set to value '"/w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfres_sa /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfmvar /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rtmom /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_disres /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfesd /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_mim /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_fmom /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfres_rpo /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_m /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfmim /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_res /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_bip /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_bip3 /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_dio3 /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_3v /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_na /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_dio /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_dio_m /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfind /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_dio_3m /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_bbmvar /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfres_hri /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_3vna /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_dio_dnw /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_3m /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfjvar /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfmos /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfsbd /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfmvar_33 /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfmos33 /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rffmom /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;stat_noise"' different than default value '""'.
+\# INFO (PerfDiag): The private hspiceD.envOpts environment variable 'modelFiles' is set to value '"/w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/hspice/hspice.mdl"' different than default value '""'.
+\# INFO (PerfDiag): The private ams.envOpts environment variable 'modelFiles' is set to value '"/w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfres_sa /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfmvar /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rtmom /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_disres /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfesd /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_mim /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_fmom /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfres_rpo /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_m /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfmim /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_res /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_bip /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_bip3 /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_dio3 /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_3v /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_na /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_dio /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_dio_m /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfind /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_dio_3m /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_bbmvar /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfres_hri /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_3vna /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_dio_dnw /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_3m /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfjvar /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfmos /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfsbd /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfmvar_33 /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfmos33 /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rffmom /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;stat_noise"' different than default value '""'.
+\# INFO (PerfDiag): The private UltraSim.envOpts environment variable 'modelFiles' is set to value '"/w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfres_sa /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfmvar /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rtmom /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_disres /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfesd /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_mim /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_fmom /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfres_rpo /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_m /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfmim /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_res /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_bip /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_bip3 /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_dio3 /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_3v /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_na /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_dio /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_dio_m /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfind /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_dio_3m /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_bbmvar /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfres_hri /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_3vna /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_dio_dnw /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_3m /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfjvar /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfmos /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfsbd /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfmvar_33 /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfmos33 /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rffmom /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;stat_noise"' different than default value '""'.
+\# (PerfDiag): Use backtrace from GLIBC.

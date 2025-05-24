@@ -2,33 +2,9 @@
 <setupdb version="7">history
 	<active>Active Setup</active>
 	<history>History
-		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.0
-			<timestamp>May 9 20:09:19 2025</timestamp>
-			<uuid>{d8551cf0-b4b3-4195-a9a9-61dd0f7c34ac}</uuid>
-			<locked>0</locked>
-			<mode>Single Run, Sweeps and Corners</mode>
-			<resultsname>/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/tapeout_fullrate/tb_top_full_chip/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
-			<runlog>/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/tapeout_fullrate/tb_top_full_chip/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
-			<psfdir>/w/home.24/home/vineelchandra99/simulation/tapeout_fullrate/tb_top_full_chip/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
-			<simdir>$AXL_PROJECT_DIR/tapeout_fullrate/tb_top_full_chip/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
-		</historyentry>
-		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.1
-			<timestamp>May 9 20:11:59 2025</timestamp>
-			<uuid>{a7d27a13-1aa0-4aa1-af94-3a84d7c4d51c}</uuid>
-			<locked>0</locked>
-			<mode>Single Run, Sweeps and Corners</mode>
-			<resultsname>/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/tapeout_fullrate/tb_top_full_chip/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
-			<runlog>/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/tapeout_fullrate/tb_top_full_chip/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
-			<psfdir>/w/home.24/home/vineelchandra99/simulation/tapeout_fullrate/tb_top_full_chip/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
-			<simdir>$AXL_PROJECT_DIR/tapeout_fullrate/tb_top_full_chip/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
-		</historyentry>
 		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.2
-			<timestamp>May 10 18:46:27 2025</timestamp>
-			<uuid>{d0cf53fc-1a89-4a1a-be20-62b9149403e3}</uuid>
+			<timestamp>May 21 11:35:11 2025</timestamp>
+			<uuid>{2b7d3f79-8521-4641-8720-a84962307a0b}</uuid>
 			<locked>0</locked>
 			<mode>Single Run, Sweeps and Corners</mode>
 			<resultsname>/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/tapeout_fullrate/tb_top_full_chip/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>

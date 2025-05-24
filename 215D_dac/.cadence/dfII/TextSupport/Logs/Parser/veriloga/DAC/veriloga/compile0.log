@@ -1,0 +1,16 @@
+Reading file: 
+        /w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/DAC/ADC_no_timing/veriloga/veriloga.va
+Reading file: 
+        /w/apps4/Cadence/SPECTRE231/tools.lnx86/spectre/etc/ahdl/constants.vams
+Reading file: 
+        /w/apps4/Cadence/SPECTRE231/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+
+Error found by spectre during AHDL compile.
+    ERROR (VACOMP-2212): "@ (cross(V(vclk)<<--?  - vtrans_clk, 1)) begin"
+        "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/DAC/ADC_no_timing/veriloga/veriloga.va",
+        line 29: Encountered undeclared identifier: vclk. Declare the
+        identifier before using it.
+    ERROR (VACOMP-1552):
+        "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/DAC/ADC_no_timing/veriloga/veriloga.va",
+        line 29: Encountered left operand of type *undef* for operator `-'.
+        Specify a real or an integer type operand instead.

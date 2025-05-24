@@ -150,6 +150,9 @@
 					<output>eyeDiagram(VT("/I0/VOUTP") 1e-07 5e-06 (2 * 3.33e-10) ?triggerPeriod 3.33e-10 ?autoCenter t)
 						<evalType>point</evalType>
 					</output>
+					<output>average(clip(IT("/IVDD/PLUS") 1e-06 3e-06))
+						<evalType>point</evalType>
+					</output>
 				</outputs>
 			</test>
 		</tests>
@@ -162,7 +165,7 @@
 				<value>(None)</value>
 			</plottingoption>
 			<plottingoption>plottingmode
-				<value>Replace</value>
+				<value>Append</value>
 			</plottingoption>
 			<plottingoption>plottype
 				<value>None</value>
@@ -183,7 +186,7 @@
 				<value>no</value>
 			</plottingoption>
 			<plottingoption>autoplotmode
-				<value>Replace</value>
+				<value>Append</value>
 			</plottingoption>
 		</plottingoptions>
 		<exploreroptions>

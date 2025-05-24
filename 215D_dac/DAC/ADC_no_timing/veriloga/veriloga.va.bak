@@ -1,0 +1,9 @@
+// VerilogA for DAC, ADC_no_timing, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module ADC_no_timing;
+
+
+endmodule

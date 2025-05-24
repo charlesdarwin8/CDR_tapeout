@@ -1,23 +1,18 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Sat May 10 18:46:28 2025 
-Best design point: 1
+Current time: Wed May 21 11:35:12 2025 
+Best design point: 2
 Design specs: 
 	tapeout_fullrate_tb_top_full_chip_1	corner	Nominal - 
-	eye_randJitterLeft		2.146p
-	eye_p2pJitterLeft		12.17p
-	VOUTP_p2p_jitter_0.877_vth		22.63p
-	VOUTP_p2p_jitter_0.9_vth		21.52p
-	VT("/I0/CDR/DIFFINP")		Error	No
-	VT("/I0/CDR/DIFFINM")		Error	No
-	2.5_to_5u_clk_rj		3.125p
-	2.5_to_5u_clk_p2p_jitter		33.39p
-	2.5_to_7.5u_clk_rj		3.174p
-	2.5_to_7.5u_clk_p2p_jitter		33.39p
+	2.5_to_5u_clk_rj		1.701p
+	2.5_to_5u_clk_p2p_jitter		21.91p
+	2.5_to_7.5u_clk_rj		1.701p
+	2.5_to_7.5u_clk_p2p_jitter		21.91p
+	average(clip(IT("/IVDD/PLUS") 1000000.0 3000000.0))		-5.434m
 Design parameters: 
 
 Interactive.2
-Number of points completed: 1
+Number of points completed: 2
 Number of simulation errors: 0
 Interactive.2 completed. 
-Current time: Sat May 10 19:27:31 2025 
+Current time: Wed May 21 12:10:55 2025 

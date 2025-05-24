@@ -4,4 +4,6 @@ DEFINE tsmc18 $PDK_HOME//tsmc18
 DEFINE avTech  /w/apps4/Cadence/ASSURA41/tools/assura/etc/avtech/avTech
 DEFINE ahdlLib /w/apps4/Cadence/IC231/tools/dfII/samples/artist/ahdlLib
 DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
-DEFINE functional $CDSHOME/tools/dfII/etc/cdslib/artist/functional
+DEFINE functional $CDSHOME/tools/dfII/etc/cdslib/artist/functionalDEFINE DAC /w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/DAC
+#Removed by ddDeleteObj: DEFINE DAC /w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/DAC
+DEFINE DAC /w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/DAC

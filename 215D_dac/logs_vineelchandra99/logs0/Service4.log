@@ -1,0 +1,1794 @@
+\# Program start time:     UTC 2025.05.21 22:24:51.791
+\# Local time: PDT (UTC-07:00) 2025.05.21 15:24:51.791
+\o Program:		@(#)$CDS: Virtuoso Studio version IC23.1-64b 05/22/2024 07:43 (cpgbld16) $
+\o Hierarchy:		/w/apps4/Cadence/IC231/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC23.1-64b.ISR7.27  (64-bit addresses)
+\# Command line:	/w/apps4/Cadence/IC231/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost eeapps01.labidm.seas.ucla.edu -beanport 11512 -beanbinlog  -beanLogFile /w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/amps_Service4.log -mpssession virtuoso2228889 -mpshost eeapps01.labidm.seas.ucla.edu -davinciService DaVinciService_2228889_1747863911 -scopedPid 2228889 -axlSession fnxSession0 -axlServiceIdFlag 4 -uuid 722bdc8f-45e4-4412-a2b8-67ec58bf7494 -heartbeat /dev/shm/swift-heartbeat.URMMA7kVGy -log /w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log -adeBrokerAddress eeapps01.labidm.seas.ucla.edu:44077 -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D6DEA9A1E9F6ED92177E0DA4BCC37CC3E6BEEC2129F67D0227DAAD24ECD3FC87766E3A12FFC06BC4D0ECDDDAEAEB7D46300001EDF -interactive -offlineExprEval -upfrontMode -fenixMode explorer -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Host name (type):	eeapps01.labidm.seas.ucla.edu (x86_64)
+\# Operating system:	Linux 4.18.0-553.22.1.el8_10.x86_64 #1 SMP Wed Sep 11 18:02:00 EDT 2024
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:5159 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        726 MB
+\# Available memory:	     44,346 MB
+\# System memory:	     71,981 MB
+\# Maximum memory size:	     71,426 MB
+\# Max mem available:	     44,517 MB
+\# Initial memory used:	        171 MB
+\#        process size:	      1,693 MB
+\# Thread usage limits (effective/default):	maxthreads 254923/254923 maxload 32.00/32.00
+\# Qt version:		5.15.9
+\# Window Manager:	other
+\# User Name:		vineelchandra99
+\o Working Directory:	eeapps01.labidm.seas.ucla.edu:/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac
+\# Process Id:		2396383
+\o 
+\o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading im.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading layers.cxt 
+\o Loading drv.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading analog.cxt 
+\o Loading par.cxt 
+\o Loading asimenv.cxt 
+\# Memory report: using         300 MB, process size 1,825 MB at UTC 2025.05.21 22:24:54.075
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o Loading sipLayout.cxt 
+\o Loading diagCenter.cxt 
+\o INFO (ELI-00333) Client process connection mode is LSCS.
+\# [15:24:51.223121] Configured Lic search path (23.02-s006): 5281@lm-cadence.seas.ucla.edu
+\w *WARNING* LIB analogLib from File /w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/cds.lib Line 6 redefines
+\w LIB analogLib from the same file (defined earlier.)
+\w *WARNING* '/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/cds.lib', Line 7: Skipping: 'DAC'
+\o  /w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/DAC
+\w *WARNING* The directory: '/w/apps4/Cadence/IC231/tools.lnx86/dfII/etc/cdslib/artist/functionalDEFINE' does not exist
+\w 	but was defined in libFile '/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/cds.lib' for Lib 'functional'.
+\o "########## Loading Calibre ###################################"
+\o "Loading /w/apps4/Mentor/Calibre/2024.3_16.10/aok_cal_2024.3_16.10/shared/pkgs/icv/tools/queryskl/calibre.OA.skl"
+\o //
+\o //  Calibre Skill Interface * (v2024.3_16.10) *
+\o //
+\o //                         Copyright Siemens 1996-2020     
+\o //                             All Rights Reserved.
+\o //         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //            WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //
+\p > 
+\o Loading le.cxt 
+\w *WARNING* could not load font "-*-courier-medium-r-*-*-12-*", using font "fixed"
+\w *WARNING* could not load font "-*-helvetica-medium-r-*-*-12-*", using font "fixed"
+\w *WARNING* Font name -*-helvetica-medium-r-*-*-12-* is invalid 
+\w *WARNING* Font name -*-helvetica-medium-r-*-*-12-* is invalid 
+\w *WARNING* Font name -*-helvetica-medium-r-*-*-12-* is invalid 
+\o Loading tilp.cxt 
+\o Loading validator.cxt 
+\o Loading vrf.cxt 
+\o Loading multiTechPlugin.cxt 
+\o Loading exportDie.cxt 
+\o Initializing from libInit.il for library tsmc18...
+\w *WARNING* (loadContext): context /grid/cic/ciccm_t1nb_018/IC23.1/ISR/lnx86/64/builds/240522-027/tools/dfII/etc/context/64bit/pCellGen.cxt already loaded
+\o    --  pcell18v1a.cdn
+\o    --  tsmc18_updateCDFs.ile
+\o    --  tsmc18.cxt
+\o Loading PDK Display File '/w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../display.drf'
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading vdsil.cxt 
+\# Memory report: using         444 MB, process size 2,011 MB at UTC 2025.05.21 22:24:58.333
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\# The Health Monitor tool is installed. You can access it from CIW - Tools - Diagnostic Center or use the shell command 'cdsPerfDiag -p 2396383' to open it when Virtuoso freezes.
+\# INFO (PerfDiag): The private spectre.envOpts environment variable 'controlMode' is set to value '"batch"' different than default value '"interactive"'.
+\# INFO (PerfDiag): The private spectre.envOpts environment variable 'modelFiles' is set to value '"/w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfres_sa /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfmvar /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rtmom /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_disres /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfesd /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_mim /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_fmom /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfres_rpo /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_m /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfmim /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_res /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_bip /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_bip3 /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_dio3 /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_3v /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_na /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_dio /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_dio_m /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfind /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_dio_3m /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_bbmvar /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfres_hri /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_3vna /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_dio_dnw /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_3m /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfjvar /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfmos /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfsbd /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfmvar_33 /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfmos33 /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rffmom /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;stat_noise"' different than default value '""'.
+\# INFO (PerfDiag): The private hspiceD.envOpts environment variable 'modelFiles' is set to value '"/w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/hspice/hspice.mdl"' different than default value '""'.
+\# INFO (PerfDiag): The private ams.envOpts environment variable 'modelFiles' is set to value '"/w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfres_sa /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfmvar /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rtmom /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_disres /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfesd /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_mim /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_fmom /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfres_rpo /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_m /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfmim /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_res /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_bip /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_bip3 /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_dio3 /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_3v /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_na /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_dio /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_dio_m /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfind /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_dio_3m /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_bbmvar /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfres_hri /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_3vna /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_dio_dnw /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_3m /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfjvar /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfmos /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfsbd /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfmvar_33 /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfmos33 /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rffmom /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;stat_noise"' different than default value '""'.
+\# INFO (PerfDiag): The private UltraSim.envOpts environment variable 'modelFiles' is set to value '"/w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfres_sa /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfmvar /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rtmom /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_disres /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfesd /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_mim /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_fmom /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfres_rpo /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_m /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfmim /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_res /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_bip /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_bip3 /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_dio3 /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_3v /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_na /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_dio /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_dio_m /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfind /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_dio_3m /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_bbmvar /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfres_hri /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_3vna /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_dio_dnw /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_3m /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfjvar /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfmos /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfsbd /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfmvar_33 /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rfmos33 /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;tt_rffmom /w/class.1/ee/ee215d/ee215dt2/DesignKits/TSMC180PDK/PDK/tsmc18/../models/spectre/cr018gpii_v1d0.scs;stat_noise"' different than default value '""'.
+\# (PerfDiag): Use backtrace from GLIBC.
+\i _axlRunServices()
+\o Loading simui.cxt 
+\o [2025-05-21 15:24:59.690 -0700] [PROCESS] [cadence.virtuoso.ade.services] - Netlist Service has successfully started. Waiting for incoming messages ... {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:24:59.732 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "4", "history": "ExplorerRun.0", "point": 0, "testname": "DAC_diffamp_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "18580", "category": "point-netlist"}
+\# Memory report: using         544 MB, process size 2,495 MB at UTC 2025.05.21 22:25:00.805
+\# Unzipping history /w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/DAC/diffamp/maestro/history/ExplorerRun.0.zip::historyData.sdb
+\o Loading vqp.cxt 
+\o *Warning* AXL Context Manager : job 4 is already registered. 
+\o 
+\o Loading hdlPkg.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = DAC
+\o 	Cell         = diffamp
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = ExplorerRun.0
+\o 	Results DB   = /w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/DAC/diffamp/maestro/results/maestro/ExplorerRun.0.rdb
+\o 	Results Dir  = /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/1/DAC_diffamp_1
+\o 	Results Loc  = /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro
+\o 	Project Dir  = /w/home.24/home/vineelchandra99/simulation
+\o 	Setup DB loc = /w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/DAC/diffamp/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading viva.cxt 
+\w *WARNING* LIB analogLib from File /w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/cds.lib Line 6 redefines
+\w LIB analogLib from the same file (defined earlier.)
+\w *WARNING* '/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/cds.lib', Line 7: Skipping: 'DAC'
+\o  /w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/DAC
+\w *WARNING* The directory: '/w/apps4/Cadence/IC231/tools.lnx86/dfII/etc/cdslib/artist/functionalDEFINE' does not exist
+\w 	but was defined in libFile '/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/cds.lib' for Lib 'functional'.
+\o ERROR (ADE-5014): Variable 'libNameSel': value EE209_Inductor_Library not found in choices list ("" "DAC" "ahdlLib" "analogLib" "avTech" "basic" "cdsDefTechLib" "tsmc18" "").
+\o ERROR (ADE-5014): Variable 'libNameSel': value EE209_Inductor_Library not found in choices list ("DAC" "ahdlLib" "analogLib" "avTech" "basic" "cdsDefTechLib" "tsmc18" "").
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading elec.cxt 
+\o [2025-05-21 15:25:01.810 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Setting dspf2adeEnabled on oasis_session in _axlRunTestNetlister {"jobid": "4", "history": "ExplorerRun.0", "point": 0, "testname": "DAC_diffamp_1", "isDspf2ADEEnabled": false}
+\o [2025-05-21 15:25:01.810 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started preparing netlist {"jobid": "4", "history": "ExplorerRun.0", "point": 0, "testname": "DAC_diffamp_1", "testnameKey": "DAC_diffamp_1", "event": "start", "category": "design-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDD = "1.8"
+\o Loading monte.cxt 
+\o Reusing AHDL Data dir
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/psf/DAC_diffamp_1
+\o 
+\o generate netlist...
+\o Loading hnlInit.cxt 
+\o Loading seCore.cxt 
+\# Available memory:         44,339 MB at UTC 2025.05.21 22:25:02.118
+\# Memory report: Maximum memory size now 44,897 MB at UTC 2025.05.21 22:25:02.118
+\# Thread usage report: 16 active threads, active load 1.40 at UTC 2025.05.21 22:25:02.118
+\# [15:25:02.118448] periodic Lic check successful
+\# [15:25:02.118450] Feature usage summary:
+\o Initializing the control file using cp:
+\o     cp /w/apps4/Cadence/IC231/tools.lnx86/dfII/etc/si/control.spectre /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/psf/DAC_diffamp_1/netlist/control
+\o Copying Spectre source file 'spectre.inp'
+\o Copying Spectre command file 'spectre.sim'
+\o Begin Incremental Netlisting May 21 15:25:02 2025
+\o Loading json.cxt 
+\o End netlisting May 21 15:25:02 2025
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   10
+\o 
+\o 	Elapsed time:          1.0s (10.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:25:03.103 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished preparing netlist {"jobid": "4", "history": "ExplorerRun.0", "point": 0, "testname": "DAC_diffamp_1", "testnameKey": "DAC_diffamp_1", "event": "finish", "category": "design-netlist"}
+\o [2025-05-21 15:25:05.149 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 1, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "1:1:5", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "23943", "category": "point-netlist"}
+\o [2025-05-21 15:25:05.149 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 1, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VDD = "1.8"
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/1/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/1/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:25:07.798 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 902.2969 MBytes, peak memory used: 902.2969 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 1, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:25:07.798 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 1, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:25:08.801 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 6, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "6:1:10", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "26075", "category": "point-netlist"}
+\o [2025-05-21 15:25:08.801 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 6, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/6/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/6/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:25:09.428 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 902.2969 MBytes, peak memory used: 902.2969 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 6, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:25:09.429 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 6, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:25:10.432 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 11, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "11:1:15", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "28123", "category": "point-netlist"}
+\o [2025-05-21 15:25:10.432 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 11, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/11/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/11/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:25:11.100 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 902.2969 MBytes, peak memory used: 902.2969 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 11, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:25:11.101 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 11, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:25:12.104 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 16, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "16:1:20", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "30178", "category": "point-netlist"}
+\o [2025-05-21 15:25:12.104 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 16, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/16/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/16/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:25:12.755 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 902.2969 MBytes, peak memory used: 902.2969 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 16, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:25:12.755 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 16, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:25:13.758 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 21, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "21:1:25", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "32233", "category": "point-netlist"}
+\o [2025-05-21 15:25:13.758 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 21, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/21/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/21/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:25:14.437 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 902.2969 MBytes, peak memory used: 902.2969 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 21, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:25:14.438 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 21, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:25:15.441 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 26, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "26:1:30", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "34288", "category": "point-netlist"}
+\o [2025-05-21 15:25:15.441 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 26, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/26/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/26/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:25:16.107 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 902.2969 MBytes, peak memory used: 902.2969 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 26, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:25:16.108 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 26, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:25:17.110 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 31, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "31:1:35", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "36343", "category": "point-netlist"}
+\o [2025-05-21 15:25:17.111 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 31, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/31/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/31/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:25:17.788 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 902.2969 MBytes, peak memory used: 902.2969 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 31, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:25:17.789 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 31, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:25:18.792 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 36, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "36:1:40", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "38398", "category": "point-netlist"}
+\o [2025-05-21 15:25:18.792 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 36, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/36/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/36/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:25:19.486 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 902.2969 MBytes, peak memory used: 902.2969 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 36, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:25:19.487 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 36, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:25:20.489 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 41, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "41:1:45", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "40453", "category": "point-netlist"}
+\o [2025-05-21 15:25:20.489 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 41, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/41/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/41/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:25:21.178 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 902.2969 MBytes, peak memory used: 902.2969 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 41, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:25:21.179 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 41, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:25:22.181 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 46, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "46:1:50", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "42508", "category": "point-netlist"}
+\o [2025-05-21 15:25:22.181 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 46, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/46/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/46/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:25:23.370 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 902.5117 MBytes, peak memory used: 902.5117 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 46, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:25:23.371 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 46, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:25:24.374 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 51, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "51:1:55", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "44563", "category": "point-netlist"}
+\o [2025-05-21 15:25:24.374 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 51, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/51/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/51/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:25:25.144 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 902.5117 MBytes, peak memory used: 902.5117 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 51, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:25:25.144 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 51, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:25:26.147 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 56, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "56:1:60", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "46618", "category": "point-netlist"}
+\o [2025-05-21 15:25:26.147 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 56, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/56/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/56/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:25:26.825 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 902.5117 MBytes, peak memory used: 902.5117 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 56, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:25:26.826 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 56, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:25:27.828 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 61, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "61:1:65", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "48673", "category": "point-netlist"}
+\o [2025-05-21 15:25:27.829 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 61, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/61/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/61/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:25:28.696 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 902.5117 MBytes, peak memory used: 902.5117 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 61, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:25:28.697 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 61, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:25:29.700 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 66, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "66:1:70", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "50728", "category": "point-netlist"}
+\o [2025-05-21 15:25:29.700 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 66, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/66/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/66/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:25:30.341 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 902.5117 MBytes, peak memory used: 902.5117 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 66, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:25:30.342 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 66, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:25:31.344 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 71, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "71:1:75", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "52783", "category": "point-netlist"}
+\o [2025-05-21 15:25:31.345 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 71, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/71/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/71/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:25:32.038 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 902.5117 MBytes, peak memory used: 902.5117 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 71, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:25:32.039 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 71, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:25:33.041 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 76, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "76:1:80", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "54838", "category": "point-netlist"}
+\o [2025-05-21 15:25:33.041 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 76, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/76/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/76/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:25:33.764 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 902.5117 MBytes, peak memory used: 902.5117 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 76, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:25:33.765 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 76, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:25:34.767 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 81, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "81:1:85", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "56893", "category": "point-netlist"}
+\o [2025-05-21 15:25:34.767 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 81, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/81/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/81/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:25:35.458 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 902.5117 MBytes, peak memory used: 902.5117 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 81, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:25:35.458 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 81, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:25:36.461 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 86, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "86:1:90", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "58948", "category": "point-netlist"}
+\o [2025-05-21 15:25:36.461 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 86, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/86/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/86/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:25:37.176 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 902.5156 MBytes, peak memory used: 902.5156 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 86, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:25:37.176 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 86, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:25:38.179 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 91, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "91:1:95", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "61003", "category": "point-netlist"}
+\o [2025-05-21 15:25:38.179 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 91, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/91/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/91/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:25:39.091 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 902.9766 MBytes, peak memory used: 902.9766 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 91, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:25:39.091 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 91, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:25:40.094 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 96, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "96:1:100", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "63058", "category": "point-netlist"}
+\o [2025-05-21 15:25:40.094 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 96, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/96/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/96/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:25:40.950 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 905.4062 MBytes, peak memory used: 905.4062 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 96, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:25:40.951 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 96, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:25:41.953 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 101, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "101:1:105", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "65114", "category": "point-netlist"}
+\o [2025-05-21 15:25:41.954 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 101, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/101/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/101/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:25:42.647 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.4688 MBytes, peak memory used: 907.4688 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 101, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:25:42.648 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 101, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:25:43.651 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 106, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "106:1:110", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "67177", "category": "point-netlist"}
+\o [2025-05-21 15:25:43.651 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 106, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/106/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/106/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:25:44.468 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.4688 MBytes, peak memory used: 907.4688 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 106, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:25:44.468 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 106, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:25:45.471 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 111, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "111:1:115", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "69240", "category": "point-netlist"}
+\o [2025-05-21 15:25:45.472 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 111, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/111/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/111/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:25:46.374 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.4688 MBytes, peak memory used: 907.4688 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 111, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:25:46.374 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 111, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:25:47.376 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 116, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "116:1:120", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "71303", "category": "point-netlist"}
+\o [2025-05-21 15:25:47.377 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 116, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/116/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/116/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:25:48.019 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.4688 MBytes, peak memory used: 907.4688 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 116, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:25:48.019 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 116, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:25:49.023 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 121, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "121:1:125", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "73366", "category": "point-netlist"}
+\o [2025-05-21 15:25:49.024 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 121, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/121/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/121/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:25:49.798 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.4688 MBytes, peak memory used: 907.4688 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 121, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:25:49.799 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 121, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:25:50.801 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 126, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "126:1:130", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "75429", "category": "point-netlist"}
+\o [2025-05-21 15:25:50.802 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 126, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/126/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/126/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:25:51.719 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.4688 MBytes, peak memory used: 907.4688 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 126, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:25:51.720 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 126, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:25:52.723 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 131, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "131:1:135", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "77492", "category": "point-netlist"}
+\o [2025-05-21 15:25:52.723 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 131, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/131/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/131/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:25:53.430 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.4688 MBytes, peak memory used: 907.4688 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 131, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:25:53.430 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 131, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:25:54.433 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 136, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "136:1:140", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "79555", "category": "point-netlist"}
+\o [2025-05-21 15:25:54.433 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 136, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/136/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/136/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:25:55.050 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.4688 MBytes, peak memory used: 907.4688 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 136, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:25:55.051 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 136, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:25:56.053 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 141, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "141:1:145", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "81618", "category": "point-netlist"}
+\o [2025-05-21 15:25:56.054 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 141, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/141/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/141/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:25:56.701 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.4688 MBytes, peak memory used: 907.4688 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 141, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:25:56.702 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 141, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:25:57.704 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 146, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "146:1:150", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "83681", "category": "point-netlist"}
+\o [2025-05-21 15:25:57.705 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 146, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/146/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/146/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:25:58.380 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.4688 MBytes, peak memory used: 907.4688 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 146, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:25:58.380 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 146, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:25:59.383 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 151, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "151:1:155", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "85744", "category": "point-netlist"}
+\o [2025-05-21 15:25:59.383 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 151, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/151/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/151/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:00.198 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.4688 MBytes, peak memory used: 907.4688 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 151, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:00.199 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 151, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:01.202 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 156, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "156:1:160", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "87807", "category": "point-netlist"}
+\o [2025-05-21 15:26:01.202 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 156, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/156/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/156/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:01.922 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.4727 MBytes, peak memory used: 907.4727 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 156, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:01.923 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 156, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:02.926 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 161, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "161:1:165", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "89870", "category": "point-netlist"}
+\o [2025-05-21 15:26:02.926 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 161, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/161/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/161/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:03.905 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.4766 MBytes, peak memory used: 907.4766 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 161, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:03.906 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 161, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:04.909 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 166, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "166:1:170", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "91933", "category": "point-netlist"}
+\o [2025-05-21 15:26:04.909 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 166, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/166/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/166/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:05.555 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.4844 MBytes, peak memory used: 907.4844 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 166, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:05.555 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 166, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:06.557 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 171, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "171:1:175", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "93996", "category": "point-netlist"}
+\o [2025-05-21 15:26:06.558 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 171, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/171/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/171/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:07.231 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.4844 MBytes, peak memory used: 907.4844 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 171, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:07.232 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 171, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:08.235 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 176, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "176:1:180", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "96059", "category": "point-netlist"}
+\o [2025-05-21 15:26:08.235 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 176, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/176/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/176/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:09.080 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.4844 MBytes, peak memory used: 907.4844 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 176, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:09.080 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 176, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:10.083 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 181, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "181:1:185", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "98122", "category": "point-netlist"}
+\o [2025-05-21 15:26:10.083 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 181, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/181/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/181/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:10.909 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.4883 MBytes, peak memory used: 907.4883 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 181, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:10.910 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 181, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:11.913 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 186, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "186:1:190", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "100185", "category": "point-netlist"}
+\o [2025-05-21 15:26:11.913 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 186, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/186/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/186/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:12.575 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.4883 MBytes, peak memory used: 907.4883 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 186, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:12.576 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 186, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:13.579 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 191, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "191:1:195", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "102249", "category": "point-netlist"}
+\o [2025-05-21 15:26:13.579 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 191, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/191/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/191/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:14.436 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.4883 MBytes, peak memory used: 907.4883 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 191, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:14.437 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 191, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:15.440 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 196, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "196:1:200", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "104313", "category": "point-netlist"}
+\o [2025-05-21 15:26:15.440 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 196, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/196/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/196/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:16.067 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.4883 MBytes, peak memory used: 907.4883 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 196, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:16.067 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 196, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:17.070 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 201, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "201:1:205", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "106377", "category": "point-netlist"}
+\o [2025-05-21 15:26:17.070 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 201, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/201/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/201/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:17.768 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.4883 MBytes, peak memory used: 907.4883 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 201, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:17.769 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 201, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:18.772 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 206, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "206:1:210", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "108441", "category": "point-netlist"}
+\o [2025-05-21 15:26:18.772 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 206, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/206/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/206/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:19.432 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.4883 MBytes, peak memory used: 907.4883 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 206, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:19.433 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 206, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:20.435 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 211, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "211:1:215", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "110505", "category": "point-netlist"}
+\o [2025-05-21 15:26:20.436 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 211, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/211/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/211/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:21.046 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.4883 MBytes, peak memory used: 907.4883 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 211, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:21.046 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 211, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:22.049 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 216, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "216:1:220", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "112569", "category": "point-netlist"}
+\o [2025-05-21 15:26:22.049 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 216, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/216/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/216/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:22.762 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.4883 MBytes, peak memory used: 907.4883 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 216, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:22.763 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 216, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:23.765 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 221, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "221:1:225", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "114633", "category": "point-netlist"}
+\o [2025-05-21 15:26:23.766 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 221, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/221/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/221/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:24.584 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.4883 MBytes, peak memory used: 907.4883 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 221, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:24.585 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 221, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:25.587 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 226, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "226:1:230", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "116697", "category": "point-netlist"}
+\o [2025-05-21 15:26:25.588 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 226, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/226/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/226/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:26.436 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.4883 MBytes, peak memory used: 907.4883 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 226, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:26.437 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 226, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:27.439 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 231, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "231:1:235", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "118761", "category": "point-netlist"}
+\o [2025-05-21 15:26:27.439 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 231, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/231/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/231/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:28.079 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.4883 MBytes, peak memory used: 907.4883 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 231, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:28.079 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 231, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:29.082 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 236, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "236:1:240", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "120825", "category": "point-netlist"}
+\o [2025-05-21 15:26:29.082 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 236, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/236/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/236/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:29.771 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.4922 MBytes, peak memory used: 907.4922 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 236, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:29.772 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 236, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:30.774 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 241, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "241:1:245", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "122889", "category": "point-netlist"}
+\o [2025-05-21 15:26:30.774 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 241, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/241/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/241/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:31.421 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.5000 MBytes, peak memory used: 907.5000 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 241, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:31.422 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 241, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:32.425 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 246, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "246:1:250", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "124953", "category": "point-netlist"}
+\o [2025-05-21 15:26:32.425 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 246, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/246/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/246/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:33.288 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.5000 MBytes, peak memory used: 907.5000 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 246, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:33.288 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 246, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:34.291 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 251, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "251:1:255", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "127017", "category": "point-netlist"}
+\o [2025-05-21 15:26:34.291 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 251, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/251/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/251/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:34.965 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.5000 MBytes, peak memory used: 907.5000 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 251, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:34.966 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 251, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:35.968 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 256, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "256:1:260", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "129081", "category": "point-netlist"}
+\o [2025-05-21 15:26:35.969 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 256, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/256/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/256/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:36.665 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.5000 MBytes, peak memory used: 907.5000 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 256, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:36.666 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 256, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:37.669 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 261, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "261:1:265", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "131145", "category": "point-netlist"}
+\o [2025-05-21 15:26:37.669 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 261, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/261/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/261/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:38.507 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.5000 MBytes, peak memory used: 907.5000 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 261, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:38.507 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 261, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:39.510 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 266, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "266:1:270", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "133209", "category": "point-netlist"}
+\o [2025-05-21 15:26:39.510 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 266, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/266/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/266/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:40.205 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.5000 MBytes, peak memory used: 907.5000 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 266, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:40.206 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 266, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:41.208 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 271, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "271:1:275", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "135273", "category": "point-netlist"}
+\o [2025-05-21 15:26:41.209 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 271, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/271/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/271/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:41.868 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.5000 MBytes, peak memory used: 907.5000 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 271, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:41.869 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 271, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:42.873 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 276, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "276:1:280", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "137337", "category": "point-netlist"}
+\o [2025-05-21 15:26:42.874 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 276, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/276/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/276/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:43.752 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.5000 MBytes, peak memory used: 907.5000 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 276, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:43.753 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 276, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:44.756 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 281, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "281:1:285", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "139401", "category": "point-netlist"}
+\o [2025-05-21 15:26:44.756 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 281, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/281/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/281/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:45.441 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.5000 MBytes, peak memory used: 907.5000 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 281, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:45.442 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 281, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:46.444 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 286, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "286:1:290", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "141465", "category": "point-netlist"}
+\o [2025-05-21 15:26:46.444 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 286, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/286/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/286/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:47.102 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.5000 MBytes, peak memory used: 907.5000 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 286, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:47.102 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 286, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:48.105 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 291, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "291:1:295", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "143529", "category": "point-netlist"}
+\o [2025-05-21 15:26:48.105 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 291, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/291/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/291/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:48.756 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.5000 MBytes, peak memory used: 907.5000 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 291, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:48.757 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 291, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:49.760 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 296, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "296:1:300", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "145593", "category": "point-netlist"}
+\o [2025-05-21 15:26:49.760 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 296, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/296/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/296/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:50.586 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.5000 MBytes, peak memory used: 907.5000 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 296, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:50.587 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 296, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:51.589 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 301, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "301:1:305", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "147657", "category": "point-netlist"}
+\o [2025-05-21 15:26:51.589 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 301, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/301/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/301/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:52.260 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.5547 MBytes, peak memory used: 907.5547 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 301, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:52.260 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 301, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:53.263 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 306, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "306:1:310", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "149721", "category": "point-netlist"}
+\o [2025-05-21 15:26:53.264 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 306, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/306/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/306/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:53.975 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.5547 MBytes, peak memory used: 907.5547 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 306, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:53.975 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 306, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:54.978 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 311, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "311:1:315", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "151785", "category": "point-netlist"}
+\o [2025-05-21 15:26:54.979 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 311, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/311/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/311/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:55.692 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.5547 MBytes, peak memory used: 907.5547 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 311, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:55.693 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 311, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:56.695 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 316, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "316:1:320", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "153849", "category": "point-netlist"}
+\o [2025-05-21 15:26:56.696 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 316, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/316/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/316/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:57.385 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.5547 MBytes, peak memory used: 907.5547 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 316, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:57.386 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 316, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:26:58.389 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 321, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "321:1:325", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "155913", "category": "point-netlist"}
+\o [2025-05-21 15:26:58.389 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 321, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/321/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/321/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:26:59.108 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.5547 MBytes, peak memory used: 907.5547 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 321, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:26:59.109 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 321, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:27:00.111 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 326, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "326:1:330", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "157977", "category": "point-netlist"}
+\o [2025-05-21 15:27:00.112 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 326, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/326/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/326/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:27:00.886 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.5547 MBytes, peak memory used: 907.5547 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 326, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:27:00.886 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 326, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:27:01.889 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 331, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "331:1:335", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "160041", "category": "point-netlist"}
+\o [2025-05-21 15:27:01.889 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 331, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/331/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/331/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:27:02.694 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 907.5547 MBytes, peak memory used: 907.5547 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 331, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:27:02.694 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 331, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:27:03.697 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 336, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "336:1:340", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "162105", "category": "point-netlist"}
+\o [2025-05-21 15:27:03.697 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 336, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/336/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/336/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:27:04.508 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 909.5586 MBytes, peak memory used: 909.5586 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 336, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:27:04.509 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 336, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:27:05.512 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 341, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "341:1:345", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "164169", "category": "point-netlist"}
+\o [2025-05-21 15:27:05.512 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 341, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/341/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/341/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:27:06.123 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 909.5586 MBytes, peak memory used: 909.5586 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 341, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:27:06.124 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 341, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:27:07.127 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 346, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "346:1:350", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "166233", "category": "point-netlist"}
+\o [2025-05-21 15:27:07.128 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 346, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/346/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/346/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:27:07.865 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 909.5586 MBytes, peak memory used: 909.5586 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 346, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:27:07.866 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 346, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o [2025-05-21 15:27:08.869 -0700] [EVENT] [cadence.virtuoso.ade.services.netlister] - GroupPoints {"jobid": "4", "history": "ExplorerRun.0", "point": 351, "testname": "DAC_diffamp_1", "event": "GroupPoints", "EventSource": "Netlist Service", "Points": "351:1:355", "HistoryName": "ExplorerRun.0", "logFile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log", "logFileSize": "168297", "category": "point-netlist"}
+\o [2025-05-21 15:27:08.869 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 351, "testname": "DAC_diffamp_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o 
+\o *Info*    Netlist Directory =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/351/DAC_diffamp_1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /w/home.24/home/vineelchandra99/simulation/DAC/diffamp/maestro/results/maestro/ExplorerRun.0/351/DAC_diffamp_1/groupRunDataDir
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-05-21 15:27:09.493 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 909.5586 MBytes, peak memory used: 909.5586 MBytes {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "testname": "DAC_diffamp_1", "point": 351, "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o [2025-05-21 15:27:09.493 -0700] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "4", "history": "ExplorerRun.0", "point": 351, "testname": "DAC_diffamp_1", "event": "finish", "category": "point-netlist"}
+\o **** stopping dspf2oa stdobj@0x3a14d4d0 1 4
+\o [2025-05-21 15:32:10.686 -0700] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Netlist Service process exits. {"jobid": "4", "hostname": "eeapps01.labidm.seas.ucla.edu", "processid": 2396383, "history": "ExplorerRun.0", "logfile": "/w/home.24/home/vineelchandra99/tsmc180test/github_dir/CDR_tapeout/215D_dac/logs_vineelchandra99/logs0/Service4.log"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables29".
+\o To save future changes, copy variables to cellView before exiting.
+\# Lic Summary:
+\# [15:32:11.197984] Cdslmd servers:5281@lm-cadence.seas.ucla.edu
+\# [15:32:11.722299] Feature usage summary:
+\# Memory report: on exit            578 MB, process size 2,530 MB at UTC 2025.05.21 22:32:11.722
+\# Memory report: peak usage         586 MB, process size 2,538 MB

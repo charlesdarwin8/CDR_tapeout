@@ -1,0 +1,57 @@
+// VerilogA for DAC, ADC_no_timing, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module ADC_no_timing(vd9,vd8,vd7, vd6, vd5, vd4, vd3, vd2, vd1, vd0, vin);
+electrical vd9,vd8,vd7, vd6, vd5, vd4, vd3, vd2, vd1, vd0, vin;
+parameter real trise = 0 from [0:inf);
+parameter real tfall = 0 from [0:inf);
+parameter real tdel = 0 from [0:inf);
+parameter real vlogic_high = 1.8;
+parameter real vlogic_low  = 0;
+parameter real vtrans_clk     = 2.5;
+parameter real vref        = 1024;
+
+`define NUM_ADC_BITS	10
+   real unconverted;
+   real halfref;
+
+   real vd[0:`NUM_ADC_BITS-1];
+   integer i;
+
+   analog begin
+
+      @ ( initial_step ) begin
+          halfref = vref / 2;
+      end
+
+      @ (cross(V(vclk) - vtrans_clk, 1)) begin
+         unconverted = V(vin);
+         for (i = (`NUM_ADC_BITS-1); i >= 0 ; i = i - 1) begin
+            vd[i] = 0;
+            if (unconverted > halfref) begin
+               vd[i] = vlogic_high; 
+               unconverted = unconverted - halfref;
+	    end else begin
+               vd[i] = vlogic_low;
+	    end
+            unconverted = unconverted * 2;
+         end
+      end
+
+      //
+      // assign the outputs
+      //
+      V(vd7) <+ transition( vd[7], tdel, trise, tfall );
+      V(vd6) <+ transition( vd[6], tdel, trise, tfall );
+      V(vd5) <+ transition( vd[5], tdel, trise, tfall );
+      V(vd4) <+ transition( vd[4], tdel, trise, tfall );
+      V(vd3) <+ transition( vd[3], tdel, trise, tfall );
+      V(vd2) <+ transition( vd[2], tdel, trise, tfall );
+      V(vd1) <+ transition( vd[1], tdel, trise, tfall );
+      V(vd0) <+ transition( vd[0], tdel, trise, tfall );
+
+`undef NUM_ADC_BITS
+   end
+endmodule
